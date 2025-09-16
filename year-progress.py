@@ -19,7 +19,7 @@ else:
     print_width = int(0.6 * 80)
 
 tm = time.localtime()
-if tm.tm_year % 4 == True:
+if tm.tm_year % 4 == 0:
     days_year = 366
 else:
     days_year = 365
